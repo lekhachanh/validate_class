@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function CheckClassName(string) {
+        check = /^([CAP]+[0-9]{4}[GHIKLM])$/;
+        if (check.test(string)) {
+            alert("Correct Account");
+        }else {
+            alert("Tạo lại Account");
+        }
+    }
+    CheckClassName("A7892H");
+    CheckClassName("F7892H");
+
+</script>
+
+</body>
+</html>
